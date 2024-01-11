@@ -27,6 +27,7 @@ Route::get('/', [TableController::class, 'showTable']);
 Route::post('/table/insert', [TableController::class, 'insertData']);
 Route::get('/show',[TableController::class,'demo']);
 
-Route::get('/form-view', [FormController::class, 'showForm']);
+Route::get('/form', [FormController::class, 'showForm']);
 Route::post('/form', [FormController::class, 'savedata'])->name('postdata');
+Route::get('/front', [FormController::class, 'showFront']);
 

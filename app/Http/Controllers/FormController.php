@@ -26,12 +26,14 @@ class FormController extends Controller
 
         $form->save();
 
-
-        // return redirect('/form')->with('success', 'Form submitted successfully!');
         return view('demo');
     }
     public function showForm(){
 
         return view('demo');
+    }
+
+    public function showFront(){
+        return view('front');
     }
 }
