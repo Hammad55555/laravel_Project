@@ -126,11 +126,11 @@ data-optly-b98551708d5845fbb39409385e0a3524="" style="background-color: rgb(244,
     <br><br>
 
     <div class="d-flex justify-content-center">
-        <div style="max-width: 610px; margin-top: 2px;">
-            <canvas id="stackedChart" style="height: 400px;"></canvas>
+        <div style="max-width: 610px; margin-top: 2px; height:310px;" >
+            <canvas id="stackedChart" style="height: 304px; display: block; box-sizing: border-box; width: 609.6px;" width="762" height="380"></canvas>
         </div>
         <div>
-            <canvas id="pieChart" style="max-width: 400px; max-height: 300px;"></canvas>
+            <canvas id="pieChart" style="max-width: 400px;max-height: 290px;display: block;box-sizing: border-box;height: 270px;width: 300px;margin-top: 37px;" width="375" height="375"></canvas>
         </div>
     </div>
 
